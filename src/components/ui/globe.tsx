@@ -97,7 +97,7 @@ export function Globe({ globeConfig, data }: WorldProps) {
       _buildData();
       _buildMaterial();
     }
-  }, [globeRef.current]);
+  });
 
   const _buildMaterial = () => {
     if (!globeRef.current) return;
@@ -222,7 +222,7 @@ export function Globe({ globeConfig, data }: WorldProps) {
     return () => {
       clearInterval(interval);
     };
-  }, [globeRef.current, globeData, data.length]);
+  }, [globeData, data.length]);
 
   return (
     <>
