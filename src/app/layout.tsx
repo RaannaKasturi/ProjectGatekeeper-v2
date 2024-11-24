@@ -1,10 +1,9 @@
 import type { Metadata } from 'next';
-import { Syne, Syne_Mono } from 'next/font/google'
+import { Syne } from 'next/font/google'
 import './globals.css';
 import { ThemeProvider } from '@/components/theme-provider';
 import HomeHeader from '@/components/custom/home-header';
 import HeaderSizing from '@/components/custom/header-sizing';
-import HeroSection from '@/components/custom/hero-section';
 
 const fontNormal = Syne({
   subsets: ['latin'],
