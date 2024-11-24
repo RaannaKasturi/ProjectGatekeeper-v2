@@ -29,51 +29,53 @@ export function ProjectIsLive() {
 
 function HeroSection() {
     return (
-        <div className="relative md:mx-5 h-screen mx-3">
-            {/* Background Component */}
-            <div className="hidden md:block absolute inset-y-0 right-0 z-0 transform translate-x-4 w-2/3 opacity-100">
-                <Globe />
-            </div>
-            {/* Foreground Content */}
-            <div className="relative z-10 pe-3">
-                <ProjectIsLive />
-            </div>
-            <div className="relative md:w-3/5 justify-between w-full">
-                <div className="lg:py-10 py-5 text-secondary-foreground w-full">
-                    <div className="text-secondary-foreground pe-2 text-2xl font-medium px-3 py-5 flex row space-x-0 items-center">
-                        <h1>
-                            Your Digital Fortress Needs a Professional and Trusted Lock
-                            <span className="inline-block ms-1">
-                                <BsShieldLockFill />
-                            </span>
-                        </h1>
-                    </div>
-                    <div className="px-3">
-                        <p>
-                            Ensure the utmost security for your digital presence with the state-of-the-art and professional SSL certificates, offering comprehensive protection against the ever-growing threats in cyberspace, provided by the experts.
-                        </p>
-                        <br />
-                        <p>
-                            Project Gatekeeper is a free SSL certificate facilitator that is designed to be easy to use and secure.
-                        </p>
-                        <div className="md:space-x-3 md:mt-10 flex md:flex-row flex-col">
-                            <Button variant="outline" className="my-3 border border-white rounded-full">
-                                <CgDetailsMore /> Checkout More
-                            </Button>
-                            <Button variant="secondary" className="my-3 border border-white rounded-full">
-                                <BsEnvelopeAtFill />Contact Us
-                            </Button>
-                            <Button variant="default" className="my-3 border border-white rounded-full">
-                                <GiArmoredBoomerang />Get Started
-                            </Button>
+        <div>
+            <div className="relative md:mx-5 h-screen mx-3">
+                {/* Background Component */}
+                <div className="hidden md:block absolute inset-y-0 right-0 z-0 transform translate-x-4 w-2/3 opacity-100">
+                    <Globe />
+                </div>
+                {/* Foreground Content */}
+                <div className="relative z-10 pe-3">
+                    <ProjectIsLive />
+                </div>
+                <div className="relative md:w-3/5 justify-between w-full">
+                    <div className="lg:py-10 py-5 text-secondary-foreground w-full">
+                        <div className="text-secondary-foreground pe-2 text-2xl font-medium px-3 py-5 flex row space-x-0 items-center">
+                            <h1>
+                                Your Digital Fortress Needs a Professional and Trusted Lock
+                                <span className="inline-block ms-1">
+                                    <BsShieldLockFill />
+                                </span>
+                            </h1>
+                        </div>
+                        <div className="px-3">
+                            <p>
+                                Ensure the utmost security for your digital presence with the state-of-the-art and professional SSL certificates, offering comprehensive protection against the ever-growing threats in cyberspace, provided by the experts.
+                            </p>
+                            <br />
+                            <p>
+                                Project Gatekeeper is a free SSL certificate facilitator that is designed to be easy to use and secure.
+                            </p>
+                            <div className="md:space-x-3 md:mt-10 flex md:flex-row flex-col">
+                                <Button variant="outline" className="my-3 border border-white rounded-full">
+                                    <CgDetailsMore /> Checkout More
+                                </Button>
+                                <Button variant="secondary" className="my-3 border border-white rounded-full">
+                                    <BsEnvelopeAtFill />Contact Us
+                                </Button>
+                                <Button variant="default" className="my-3 border border-white rounded-full">
+                                    <GiArmoredBoomerang />Get Started
+                                </Button>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div className="flex md:hidden absolute inset translate-x-5 w-11/12 h-1/2 z-0 opacity-100">
+            <div className="flex md:hidden absolute w-screen h-1/2">
                 <Globe />
             </div>
-        </div>
+        </div >
     );
 }
 
