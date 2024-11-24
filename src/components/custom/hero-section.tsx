@@ -72,7 +72,7 @@ function HeroSection() {
                     </div>
                 </div>
             </div>
-            <div className="flex md:hidden absolute w-screen -mt-16 h-2/5">
+            <div className="flex md:hidden absolute w-screen -mt-16 mb-5 p-0 h-2/5">
                 <Globe />
             </div>
         </div >
