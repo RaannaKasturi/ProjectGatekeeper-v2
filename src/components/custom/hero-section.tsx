@@ -58,13 +58,13 @@ function HeroSection() {
                         </p>
                         <div className="md:space-x-3 md:mt-10 flex md:flex-row flex-col">
                             <Button variant="outline" className="my-3 border border-white rounded-full">
-                                Checkout More <CgDetailsMore />
+                                <CgDetailsMore /> Checkout More
                             </Button>
                             <Button variant="secondary" className="my-3 border border-white rounded-full">
-                                Contact Us <BsEnvelopeAtFill />
+                                <BsEnvelopeAtFill />Contact Us
                             </Button>
                             <Button variant="default" className="my-3 border border-white rounded-full">
-                                Get Started <span><GiArmoredBoomerang /></span>
+                                <GiArmoredBoomerang />Get Started
                             </Button>
                         </div>
                     </div>
