@@ -1,6 +1,5 @@
 "use client";
 
-
 import { BsEnvelopeAtFill, BsShieldLockFill, BsShieldShaded } from "react-icons/bs";
 import { GiArmoredBoomerang } from "react-icons/gi";
 import React from "react";
@@ -11,14 +10,14 @@ import Globe from "./globe";
 
 export function ProjectIsLive() {
     return (
-        <div className="mt-5 mb-3 flex justify-center text-center">
+        <div className="mt-5 mb-3 flex justify-center text-center ">
             <HoverBorderGradient
                 containerClassName="rounded-full"
                 as="button"
                 className="dark:bg-black bg-white text-black dark:text-white flex items-center space-x-2"
             >
                 <span className="relative flex h-3 w-3">
-                    <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-700 opacity-75"></span>
+                    <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-700 opacity-100"></span>
                     <span className="relative inline-flex rounded-full h-3 w-3 bg-green-600"></span>
                 </span>
                 <span> <span className="inline-block"><BsShieldShaded /></span> Project Gatekeeper is Live</span>
@@ -71,9 +70,6 @@ function HeroSection() {
                         </div>
                     </div>
                 </div>
-            </div>
-            <div className="flex md:hidden absolute w-screen -mt-16 mb-5 p-0 h-2/5">
-                <Globe />
             </div>
         </div >
     );
