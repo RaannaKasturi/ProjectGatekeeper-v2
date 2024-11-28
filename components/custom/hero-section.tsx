@@ -1,6 +1,6 @@
 "use client";
 
-import { BsEnvelopeAtFill, BsShieldLockFill, BsShieldShaded } from "react-icons/bs";
+import { BsShieldLockFill, BsShieldShaded } from "react-icons/bs";
 import { GiArmoredBoomerang } from "react-icons/gi";
 import React from "react";
 import { HoverBorderGradient } from "../ui/hover-border-gradient";
@@ -58,10 +58,7 @@ function HeroSection() {
                             </p>
                             <div className="md:space-x-3 md:mt-10 flex md:flex-row flex-col">
                                 <Button variant="outline" className="my-3 border border-white rounded-full">
-                                    <CgDetailsMore /> Checkout More
-                                </Button>
-                                <Button variant="secondary" className="my-3 border border-white rounded-full">
-                                    <BsEnvelopeAtFill />Contact Us
+                                    <CgDetailsMore /> Learn More
                                 </Button>
                                 <Button variant="default" className="my-3 border border-white rounded-full">
                                     <GiArmoredBoomerang />Get Started
